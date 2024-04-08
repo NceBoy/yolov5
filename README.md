@@ -1,3 +1,8 @@
+#### Get model train for NCE
+1.pip install -r requirements.txt
+2.配置data/electromobile.yaml,配置相应的nc和种类以及数据集目录
+3.选择需要对应的n/s/m模型，并修改models内对应yaml中的nc数量。
+4.开训
 #### Get model optimized for RKNN
 Exporting detect/segment model with optimization for RKNN, please refer here [README_rkopt.md](./README_rkopt.md)
 
